@@ -7,10 +7,19 @@
 </head>
 <body>
 	<script>
+		// get user input
 		let answer = parseInt(prompt("Number to FizzBuzz :"));
+		// start for loop
 		for (let i = 1; i <= answer; i++) {
-			console.log(i);
+			// if i is divisable by 3 say Fizz
+			if (i % 3 === 0) {
+				console.log("Fizz");
+			// else print
+		} else {
+				console.log(i);
+			};
 		};
-	</script>
+
+</script>
 </body>
 </html>
